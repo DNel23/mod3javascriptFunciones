@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<style>
+    #div1{height: 200px; width: 200px; background-color: blue;}
+    #div2{height: 200px; width: 200px; background-color: red;}
+    #div3{height: 200px; width: 200px; background-color: green;}
+    #div4{height: 200px; width: 200px; background-color: yellow;}
+    #key{height: 200px; width: 200px; background-color: white; border: 1px;}
+    #dontenedordiv{height: 200px; width: 200px; background-color: white;}
+</style>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="key"></div>
+    <div id="contenedordiv"></div>
+    <script>
+        document.getElementById('div1').addEventListener('click',function(){this.style.backgroundColor = 'black'})
+        document.getElementById('div2').addEventListener('click',function(){this.style.backgroundColor = 'black'})
+        document.getElementById('div3').addEventListener('click',function(){this.style.backgroundColor = 'black'})
+        document.getElementById('div4').addEventListener('click',function(){this.style.backgroundColor = 'black'})
+    </script>
+    <script src="./assets/js/script2.js"></script>
+</body>
+</html>
